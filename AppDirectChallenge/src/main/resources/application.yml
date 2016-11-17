@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driverClassName: org.apache.derby.jdbc.ClientDriver
+    url: jdbc:derby://localhost:1527/MyDbTest;
+    schema: classpath:/dataBase.sql
+
+---
+
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:derby://localhost:1527/MyDbTest;
+    username: root
+    password: password
+    driverClassName: org.apache.derby.jdbc.ClientDriver
+    schema:

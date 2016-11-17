@@ -1,0 +1,30 @@
+<event>
+	<type>SUBSCRIPTION_ORDER</type>
+	<marketplace>
+		<baseUrl>https://www.acme-marketplace.com</baseUrl>
+		<partner>ACME</partner>
+	</marketplace>
+	<creator>
+		<email>wolverine@xmen</email>
+		<firstName>James</firstName>
+		<lastName>Howlett</lastName>
+		<openId>https://www.acme-marketplace.com/openid/id/a11a7918-bb43-4429-a256-f6d729c71033</openId>
+		<uuid>a11a7918-bb43-4429-a256-f6d729c71033</uuid>
+	</creator>
+	<payload>
+		<company>
+			<uuid>d15bb36e-5fb5-11e0-8c3c-00262d2cda03</uuid>
+			<email>admin@fakeco</email>
+			<name>Fake Co.</name>
+			<phoneNumber>1-415-555-1212</phoneNumber>
+			<website>fakeco</website>
+		</company>
+		<order>
+			<editionCode>BASIC</editionCode>
+			<item>
+				<quantity>10</quantity>
+				<unit>USER</unit>
+			</item>
+		</order>
+	</payload>
+</event>

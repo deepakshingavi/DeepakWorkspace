@@ -1,0 +1,19 @@
+<event>
+	<type>SUBSCRIPTION_CANCEL</type>
+	<marketplace>
+		<partner>ACME</partner>
+		<baseUrl>https://www.acme-marketplace.com</baseUrl>
+	</marketplace>
+	<creator>
+		<email>spiderman@xmen</email>
+		<firstName>Peter</firstName>
+		<lastName>Parker</lastName>
+		<openId>https://www.acme-marketplace.com/openid/id/a11a7918-bb43-4429-a256-f6d729c71033
+		</openId>
+	</creator>
+	<payload>
+		<account>
+			<accountIdentifier>MY_ACCOUNT</accountIdentifier>
+		</account>
+	</payload>
+</event>

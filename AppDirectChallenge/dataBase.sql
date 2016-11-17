@@ -1,0 +1,1 @@
+create table Profile(id INT NOT NULL GENERATED ALWAYS AS IDENTITY CONSTRAINT Profile_PK PRIMARY KEY,email varchar(26),open_Id varchar(50),first_Name varchar(20),last_Name varchar(20));
